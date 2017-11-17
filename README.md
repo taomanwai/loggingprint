@@ -9,7 +9,7 @@ A simple utility to print log to file (not screen) based on logging
     log_handler.setFormatter(log_formatter)
     logging.getLogger().handlers = []
     logging.getLogger().addHandler(log_handler)
-    logging.getLogger().setLevel(logging.ERROR)
+    logging.getLogger().setLevel(logging.INFO)
 
 For more detail, can read <https://docs.python.org/2/howto/logging.html>
 
