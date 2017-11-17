@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='loggingprint',
-    version='1.0.2',
+    version='1.0.3',
     packages=['loggingprint'],
     url='https://github.com/taomanwai/loggingprint',
     license='MIT',
